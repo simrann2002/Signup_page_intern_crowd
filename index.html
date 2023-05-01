@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Responsive Regisration Form </title>
+</head>
+<body>
+
+    
+    
+    <div class="container">
+
+        
+        
+        <header>Intern Crowd<br> User Registration Page</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+
+                      <div class="input-field">
+                          <label>Profile Picture</label>
+                          <input type="file" id="image-input" accept="image/jpeg, image/png, image/jpg">
+                          <div id="display-image"></div>
+                      </div>
+
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter birth date" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input type="number" placeholder="Enter mobile number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gender</label>
+                            <select required>
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">College/Organization Details</span>
+
+                    <div class="fields">
+                      <div class="input-field">
+                          <label>Name of College</label>
+                          <input type="text" placeholder="Enter name of your college" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Branch</label>
+                          <input type="text" placeholder="Enter your branch name" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Year of Passing</label>
+                          <input type="number" placeholder="Enter your year of passing out" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Working Status</label>
+                          <select required>
+                              <option disabled selected>Select your working status</option>
+                              <option>Working</option>
+                              <option>Not-working</option>
+                              <!-- <option>Others</option> -->
+                          </select>
+                      </div>
+
+                      <div class="input-field">
+                          <label>CGPA</label>
+                          <input type="number" placeholder="Enter your CGPA" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Linked-in Profile</label>
+                          <input type="url" placeholder="Enter your Linked-in Profile url" required>
+                      </div>
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="form second">
+                <div class="Skills/Achievements">
+                    <span class="title">Skills and Achievements</span>
+
+                    <div class="fields">
+
+                      <div class="input-field">
+                          <label>Skill-1</label>
+                          <input type="text" id="Skill-1" placeholder="Enter your top skill" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Skill-2</label>
+                          <input type="text" id="Skill-2" placeholder="Enter your skill" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Skill-3</label>
+                          <input type="text" id="Skill-3" placeholder="Enter your skill" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Achievements-1</label>
+                          <input type="text" id="Achievements-1" placeholder="Enter your achievement" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Achievements-2</label>
+                          <input type="number" id="Achievements-2" placeholder="Enter your achievement" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Achievement-3</label>
+                          <input type="number" id="Achievements-3" placeholder="Enter your achievement" required>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="Projects">
+                    <span class="title">Projects</span>
+
+                    <div class="fields">
+                      <div class="input-field">
+                          <label>Project-1 Name</label>
+                          <input type="text" placeholder="Enter project name" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Project-1 Description</label>
+                          <input type="text" placeholder="Enter Project-1 description" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Project-1 Link</label>
+                          <input type="url" placeholder="Enter Project-1 link" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Project-2 Name</label>
+                          <input type="text" placeholder="Enter project name" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Project-2 Description</label>
+                          <input type="text" placeholder="Enter Project-2 description" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Project-2 Link</label>
+                          <input type="url" placeholder="Enter Project-2 link" required>
+                      </div>
+                    </div>
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Back</span>
+                        </div>
+
+                        <button class="sumbit">
+                            <span class="btnText" onclick="SubmitData()">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
